@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-food-app
+  description: A cool service that givess awesome recipies
+  annotations:
+    github.com/project-slug: HarshThakur1206/React-Food-App
+spec:
+  type: service
+  lifecycle: production
+  owner: user:HarshThakur1206
