@@ -4,6 +4,7 @@ async function sendHttpRequest(url, config) {
     const response = await fetch(url, config);
 
     const resData = await response.json();
+    console.log("Hii")
 
     if(!response.ok){
         throw new Error(
